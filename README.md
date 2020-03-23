@@ -7,6 +7,7 @@
  SimpleCOMServer.py - A sample COM server - almost as small as they come! 
  We simply expose a single method in a Python COM object.
 
+{
 class PythonUtilities: 
 
      _public_methods_ = [ 'theSplitString' ]
@@ -20,6 +21,7 @@ class PythonUtilities:
    	    
    	    resu=val.split()
    	    return resu
+}
 
 Add code so that when this script is run by
 Python.exe, it self-registers.
