@@ -28,7 +28,7 @@ Python.exe, it self-registers.
     if __name__=='__main__':
        	
         print ("Registering COM server...")
-  	     import win32com.server.register
+        import win32com.server.register
    	    win32com.server.register.UseCommandLine(PythonUtilities)
 
 
