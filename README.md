@@ -14,8 +14,8 @@
        _reg_progid_ = "PythonDemos.Utilities2"
   <i>  NEVER copy the following ID </i> 
   <i>  Use "print pythoncom.CreateGuid()" to make a new one. </i>
-  <i>	  _reg_clsid_ = "{492F4BC4- !!Dont use this number create your own!! 4-A79EE7EFFE35}" </i>
-    
+  
+      _reg_clsid_ = "{492F4BC4- !!Dont use this number create your own!! 4-A79EE7EFFE35}"
   	   def theSplitString(self, val, item=None):
           import string
           resu=val.split()
