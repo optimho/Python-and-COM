@@ -1,7 +1,7 @@
 # Python-and-COM
  How to let pythom make and use COM objects using win32com
  Making use of a python com object.
- The following code was built in PythonWIn running as an <b>administrator</b>.
+ The following code was built in PythonWIn running as an <b>administrator</b> or you might not be allowed to register the object.
 
 
  SimpleCOMServer.py - A sample COM server - almost as small as they come! 
