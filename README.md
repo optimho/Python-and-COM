@@ -9,7 +9,8 @@
 # We simply expose a single method in a Python COM object.
 
 class PythonUtilities:
-    	_public_methods_ = [ 'theSplitString' ]
+    	
+     _public_methods_ = [ 'theSplitString' ]
     	_reg_progid_ = "PythonDemos.Utilities2"
     	# NEVER copy the following ID 
     	# Use "print pythoncom.CreateGuid()" to make a new one.
