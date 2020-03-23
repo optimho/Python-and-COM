@@ -22,7 +22,7 @@
    	      return resu
 
 
-Add code so that when this script is run by
+Add this code so that when this script is run by
 Python.exe, it self-registers.
 
     if __name__=='__main__':
