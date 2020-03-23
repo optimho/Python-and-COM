@@ -11,7 +11,7 @@
     class PythonUtilities: 
 
        _public_methods_ = [ 'theSplitString' ]
-      	_reg_progid_ = "PythonDemos.Utilities2"
+       _reg_progid_ = "PythonDemos.Utilities2"
   <i>  NEVER copy the following ID </i> 
   <i>  Use "print pythoncom.CreateGuid()" to make a new one. </i>
     	  _reg_clsid_ = "{492F4BC4- !!Dont use this number create your own!! 4-A79EE7EFFE35}"
