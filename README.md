@@ -7,7 +7,8 @@
  SimpleCOMServer.py - A sample COM server - almost as small as they come! 
  We simply expose a single method in a Python COM object.
 
-class PythonUtilities:    	
+class PythonUtilities: 
+
      _public_methods_ = [ 'theSplitString' ]
     	_reg_progid_ = "PythonDemos.Utilities2"
     	# NEVER copy the following ID 
@@ -27,6 +28,7 @@ if __name__=='__main__':
     	print ("Registering COM server...")
   	  import win32com.server.register
    	 win32com.server.register.UseCommandLine(PythonUtilities)
+
 
 !!Important !!! 
 The __reg_clsid__ number was created using
