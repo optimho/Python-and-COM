@@ -12,8 +12,8 @@
 
        _public_methods_ = [ 'theSplitString' ]
       	_reg_progid_ = "PythonDemos.Utilities2"
-     	 <b><i>  NEVER copy the following ID </b></i> 
-     	 <b><i>  Use "print pythoncom.CreateGuid()" to make a new one. </b></i>
+  <b><i>  NEVER copy the following ID </b></i> 
+  <b><i>  Use "print pythoncom.CreateGuid()" to make a new one. </b></i>
     	  _reg_clsid_ = "{492F4BC4- !!Dont use this number create your own!! 4-A79EE7EFFE35}"
     
   	       def theSplitString(self, val, item=None):
