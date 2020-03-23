@@ -46,7 +46,7 @@ On the interactive window.
 In excel create a macro and call it TestPython.
 Past make sure the macro code looks like this:
 
-   Sub TestPython()
+    Sub TestPython()
 
       Set PythonUtils = CreateObject("PythonDemos.Utilities2")
       response = PythonUtils.theSplitString("well well yes!")
