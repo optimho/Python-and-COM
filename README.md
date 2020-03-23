@@ -7,21 +7,21 @@
  SimpleCOMServer.py - A sample COM server - almost as small as they come! 
  We simply expose a single method in a Python COM object.
 
-{
-class PythonUtilities: 
 
-     _public_methods_ = [ 'theSplitString' ]
-    	_reg_progid_ = "PythonDemos.Utilities2"
-    	# NEVER copy the following ID 
-    	# Use "print pythoncom.CreateGuid()" to make a new one.
-    	_reg_clsid_ = "{492F4BC4- !!Dont use this number create your own!! 4-A79EE7EFFE35}"
+ class PythonUtilities: 
+
+      _public_methods_ = [ 'theSplitString' ]
+     	_reg_progid_ = "PythonDemos.Utilities2"
+     	#  NEVER copy the following ID 
+     	#  Use "print pythoncom.CreateGuid()" to make a new one.
+    	 _reg_clsid_ = "{492F4BC4- !!Dont use this number create your own!! 4-A79EE7EFFE35}"
     
-  	     def theSplitString(self, val, item=None):
-        import string
+  	      def theSplitString(self, val, item=None):
+         import string
    	    
-   	    resu=val.split()
-   	    return resu
-}
+   	     resu=val.split()
+   	     return resu
+
 
 Add code so that when this script is run by
 Python.exe, it self-registers.
